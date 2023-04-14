@@ -114,7 +114,7 @@ function showBottomMainTriangle(matrix) {
   }
 }
 
-console.log('s01e03 - Matrix\n');
+//console.log('s01e03 - Matrix\n');
 
 let matrix = [
   [1, 2, 3, 4],
@@ -130,11 +130,11 @@ let matrix = [
 
 // findColumnsWithZero(matrix);
 
-// let smallMatrix = [
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
-// ];
+ let smallMatrix = [
+   [1, 2, 3],
+   [4, 5, 6],
+   [7, 8, 9],
+ ];
 // showMatrix(smallMatrix);
 // snakeBypass(smallMatrix);
 
