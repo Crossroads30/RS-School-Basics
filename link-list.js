@@ -184,6 +184,6 @@ function removeItems() {
 
 let list = new LinkedList();
 
-addItems();
-getItems();
-removeItems();
+//addItems();
+//getItems();
+//removeItems();

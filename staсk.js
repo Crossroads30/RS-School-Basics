@@ -79,9 +79,9 @@ function bracketsIssue() {
 
 console.log('s01e04 - Stack\n');
 
-stackOnArrayExample();
+//stackOnArrayExample();
 
-bracketsIssue();
+//bracketsIssue();
 
 // Brackets examples:
 // ()(()()) - OK

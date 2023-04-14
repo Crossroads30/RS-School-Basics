@@ -15,8 +15,8 @@ function arrayHasSome() {
 
   console.log('  array:', arr, '\n');
 
-  console.log('  has > 5:', hasSome( arr, (item) => item > 5 ));
-  console.log('  has > 20:', hasSome( arr, (item) => item > 20 ));
+  //console.log('  has > 5:', hasSome( arr, (item) => item > 5 ));
+  //console.log('  has > 20:', hasSome( arr, (item) => item > 20 ));
 
   // console.log('  has > 5 .some:', arr.some( (item) => item > 5 ));
   // console.log('  has > 20 .some:', arr.some( (item) => item > 20 ));
@@ -39,11 +39,11 @@ function arrayIsEvery() {
 
   console.log('  array:', arr, '\n');
 
-  console.log('  is every < 5:', isEvery( arr, (item) => item < 5 ));
-  console.log('  is every < 100:', isEvery( arr, (item) => item < 100 ));
+  //console.log('  is every < 5:', isEvery( arr, (item) => item < 5 ));
+  //console.log('  is every < 100:', isEvery( arr, (item) => item < 100 ));
 
-  // console.log('  is every < 5 .every:', arr.every( (item) => item < 5 ));
-  // console.log('  is every < 100 .every:', arr.every( (item) => item < 100 ));
+   console.log('  is every < 5 .every:', arr.every( (item) => item < 5 ));
+   console.log('  is every < 100 .every:', arr.every( (item) => item < 100 ));
 }
 
 function arrayTransform() {
@@ -65,11 +65,11 @@ function arrayTransform() {
 
   console.log('  before:', arr, '\n');
 
-  let transformed = transform( arr, (item) => item * 10 );
-  console.log('  after transformation:', transformed);
+  //let transformed = transform( arr, (item) => item * 10 );
+  //console.log('  after transformation:', transformed);
 
-  // let res = arr.map( (item) => item * 10 );
-  // console.log('  after .map:', res);
+   let res = arr.map( (item) => item * 10 );
+   console.log('  after .map:', res);
 }
 
 function arrayFilter() {
@@ -100,7 +100,7 @@ function arrayFilter() {
 
 
 console.log('s01e06 - Array Methods');
-arrayHasSome();
+//arrayHasSome();
 // arrayIsEvery();
 // arrayTransform();
 // arrayFilter();
